@@ -10,27 +10,18 @@ let addingLineBtn = document.getElementById("adding-line-btn");
 addingLineBtn.addEventListener('click', ActiveToAddShape);
 
 function ActiveToAddShape() {
-   
-  
-
     let line = new fabric.Line([400,200,30,200] , {
         fill : 'red',
         stroke :'red',
-        strokeWidth : 5
-       
+        strokeWidth : 5       
     });
-
-    
-
     canvas.add(line);
-    canvas.renderAll();
-    
+    canvas.renderAll();    
 }
 
 
 // circle added functionality
 let addCirclebtn = document.getElementById("adding-line-btn2");
-
 addCirclebtn.addEventListener('click' , addCircle);
 
 function addCircle(){
