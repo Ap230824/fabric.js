@@ -1,0 +1,38 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+
+ #adding-line-btn{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ #adding-line-btn2{
+    padding: 10px;
+    position: absolute;
+    left: 15px;
+    top: 20.33%;
+    cursor: pointer;
+ }
+
+ #adding-line-btn3{
+    padding: 10px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    cursor: pointer;
+ }
+
+ #adding-line-btn4{
+    padding: 10px;
+    position: absolute;
+    left: 15px; 
+    top: 80%;
+     cursor: pointer;
+ }
